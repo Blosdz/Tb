@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/navi_smile"
+        android:icon="@drawable/ic_launcher_background"
+        android:title="Botón"/>
+    <item
+        android:id="@+id/navi_pets"
+        android:icon="@drawable/common_google_signin_btn_icon_dark_normal_background"
+        android:title="Mapa"/>
+    <item
+        android:id="@+id/navi_sun"
+        android:icon="@drawable/common_google_signin_btn_icon_light"
+        android:title="Chat"/>
+    <item
+        android:id="@+id/navi_flight"
+        android:icon="@drawable/googleg_disabled_color_18"
+        android:title="Perfil"/>
+</menu>

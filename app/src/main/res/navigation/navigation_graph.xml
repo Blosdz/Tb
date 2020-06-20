@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/navigation_graph"
+    app:startDestination="@id/navi_smile">
+
+    <fragment android:id="@+id/navi_smile"
+        android:name="com.example.tb.Fragment_1"
+        android:label="Fragment1"/>
+
+    <fragment android:id="@+id/navi_pets"
+        android:name="com.example.tb.Fragment_2"
+        android:label="Fragment2"/>
+
+    <fragment android:id="@+id/navi_sun"
+        android:name="com.example.tb.Fragment_3"
+        android:label="Fragment3"/>
+
+    <fragment android:id="@+id/navi_flight"
+        android:name="com.example.tb.Fragment_4"
+        android:label="Fragment4"/>
+</navigation>
