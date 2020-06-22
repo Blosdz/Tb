@@ -78,7 +78,7 @@ class SignIn : AppCompatActivity() {
     }
 
     private fun updateUI(currentUser: FirebaseUser?) {1
-        if(currentUser!=null){
+        if(currentUser==null){
             startActivity(Intent(applicationContext,Nav::class.java))
         }
     }

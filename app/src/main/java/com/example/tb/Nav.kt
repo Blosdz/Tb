@@ -3,6 +3,7 @@ package com.example.tb
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.view.MenuItem
 import androidx.navigation.Navigation.findNavController
 import androidx.navigation.findNavController
 import androidx.navigation.ui.NavigationUI.setupWithNavController
@@ -21,6 +22,7 @@ class Nav : AppCompatActivity() {
 
 
     }
+
     override fun onStart(){
         super.onStart()
         val currentUser=FirebaseAuth.getInstance().currentUser
